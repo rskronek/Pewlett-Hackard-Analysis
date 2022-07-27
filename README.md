@@ -13,11 +13,10 @@
   * From below image, the department who has the largest number of employees who are about to retire, is Development.
   ![Chart](./retire_count_dept.png)
  
-
-
 # Summary: 
 	* As we can see from the following, total of 72,428 employees are about to retire. 
-  	* There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees. Even though number 	     seems small compared to what the new-hire number will be, there are enough experienced people to coach.
+  	* There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees.
+	  Even though number seems small compared to what the new-hire number will be, there are enough experienced people to coach.
   ![Chart](./qualified_title.png)
 
 then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
