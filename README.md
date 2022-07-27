@@ -4,11 +4,10 @@
 
 # Results: 
   * The number of titles filled by employees who are retiring.
-  ![Chart](./retire_count_dept.png)
+  
   * The number of employees, who are about to retire, but still working in the company.
-  ![Chart](./current_emp_title.png)
+  
   * The department who has the least number of employees, who are about to retire, is Finance.
-  ![Chart](./title_count.png)
   * The department who has the largest number of employees who are about to retire, is Development.
   ![Chart](./title_count.png)
 
