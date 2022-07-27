@@ -8,10 +8,10 @@
   
   * The number of employees, who are about to retire, but still working in the company.
   
-   ![Chart](./retire_count_dept.png)
   * The department who has the least number of employees, who are about to retire, is Finance.
   * The department who has the largest number of employees who are about to retire, is Development.
-
+  ![Chart](./retire_count_dept.png)
+ 
 
 
 # Summary: 
