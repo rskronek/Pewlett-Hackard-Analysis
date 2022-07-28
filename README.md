@@ -11,7 +11,8 @@
    
   * From below image, the department who has the least number of employees, who are about to retire, is Finance.
   * From below image, the department who has the largest number of employees who are about to retire, is Development.
-  ![Chart](./retire_count_dept.png)
+  
+   ![Chart](./retire_count_dept.png)
  
 # Summary: 
 	* As we can see from the following, total of 72,428 employees are about to retire. 
@@ -19,4 +20,22 @@
 	  Even though number seems small compared to what the new-hire number will be, there are enough experienced people to coach.
   ![Chart](./qualified_title.png)
 
-then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
+	## Addtional query / table:
+	Following query will give the average salary/title,for the employees who are about to retire and eligible for mentoring, and still working.
+	 
+	SELECT DISTINCT ON (m.title) m.title as title, avg(s.salary) as Avg_sal
+	FROM mentorship_eligibilty as m
+	INNER JOIN salaries as s
+	ON (s.emp_no = m.emp_no)
+	GROUP BY m.title;
+	![Chart](./avg_sal.png)
+	
+	
+	Following query will give the average salary/department,for the employees who are about to retire and eligible for mentoring, and still working.
+	
+	SELECT DISTINCT ON (a.dept_name) a.dept_name as dept, avg(s.salary) as Avg_sal
+	FROM analysis_table as a
+	INNER JOIN salaries as s
+	ON (s.emp_no = a.emp_no)
+	GROUP BY a.dept_name;
+	![Chart](./dept_avg_sal.png)
