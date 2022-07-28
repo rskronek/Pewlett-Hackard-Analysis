@@ -13,18 +13,18 @@
   * From below image, the department who has the least number of employees, who are about to retire, is Finance.
   * From below image, the department who has the largest number of employees who are about to retire, is Development.
   
-  ![Chart](./retire_count_dept.png)
+    ![Chart](./retire_count_dept.png)
  
 # Summary: 
 * As we can see from the following, total of 72,428 employees are about to retire.
 * There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees.
 * Even though number seems small compared to what the new-hire number will be, there are enough experienced people to coach.
-![Chart](./qualified_title.png)
 
-	## Addtional query / table:
-	![Chart](./avg_sal.png)
+  ![Chart](./qualified_title.png)
+
+	 ## Addtional query / table:
 	
+    ![Chart](./avg_sal.png)
 	
-	Following query will give the average salary/department,for the employees who are about to retire and eligible for mentoring, and still working.
 	
 	![Chart](./dept_avg_sal.png)
