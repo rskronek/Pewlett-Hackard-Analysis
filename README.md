@@ -15,10 +15,10 @@
   ![Chart](./retire_count_dept.png)
  
 # Summary: 
-	* As we can see from the following, total of 72,428 employees are about to retire. 
-  	* There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees.
-	  Even though number seems small compared to what the new-hire number will be, there are enough experienced people to coach.
-          ![Chart](./qualified_title.png)
+* As we can see from the following, total of 72,428 employees are about to retire.
+* There are enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees.
+* Even though number seems small compared to what the new-hire number will be, there are enough experienced people to coach.
+![Chart](./qualified_title.png)
 
 	## Addtional query / table:
 	Following query will give the average salary/title,for the employees who are about to retire and eligible for mentoring, and still working.
